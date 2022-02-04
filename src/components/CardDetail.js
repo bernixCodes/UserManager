@@ -17,7 +17,7 @@ function ContactDetail() {
           <p className="card-text">Email: {contact.email} </p>
           <p className="card-text">City: {contact.city} </p>
         </div>
-        <button type="button" onClick={handleRedirect} class="btn btn-primary">Back to Contact Lists</button>
+        <button type="button" onClick={handleRedirect} className="btn btn-primary">Back to Contact Lists</button>
       </div>
     )
 }

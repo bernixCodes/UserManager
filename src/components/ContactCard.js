@@ -18,7 +18,7 @@ function ContactCard(props) {
                 <td>{name}</td>
                 <td>{email}</td>
                 <td>{city}</td>
-                <td class="text-center">
+                <td className="text-center">
                     <a  onClick={showDetails} className='btn btn-info btn-xs' > <span  className="glyphicon glyphicon-edit"></span> View</a>
                     <a onClick={() =>props.deleteContact(id)}  className="btn btn-danger btn-xs"><span  className="glyphicon glyphicon-remove"></span> Del</a></td>
             </>

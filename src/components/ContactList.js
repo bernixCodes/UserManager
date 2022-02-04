@@ -27,14 +27,14 @@ function ContactList({contacts,removeContact}) {
                  </Link>
                   </h2> 
                   <div className=' d-inline-flex justify-content-around me-3 ms-3' >
-            <table class="table table-striped custab">
+            <table className="table table-striped custab">
               <thead>
                   <tr>
                       <th>ID</th>
                       <th>Name</th>
                       <th>Email </th>
                       <th>City </th>
-                      <th class="text-center">Action</th>
+                      <th className="text-center">Action</th>
                   </tr>
               </thead>
               <tbody>
