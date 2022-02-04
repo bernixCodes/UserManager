@@ -1,0 +1,10 @@
+.header__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid rgb(192, 185, 185);
+}
+
+.header__container h2{
+   margin: 5px 0;
+}
